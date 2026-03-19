@@ -26,7 +26,8 @@ const projetos = {
   titulo: "Sistema de Restaurante",
   texto: "Sistema web com carrinho de compras, controle de quantidade e total dinâmico.",
   link: "https://jardiel-dev.github.io/RESTAURANTE/",
-  ativo: true
+  ativo: true,
+  status: "Concluído"
 },
 
 
@@ -36,21 +37,32 @@ const projetos = {
     titulo: "Sistema Bancário",
     texto: "Sistema bancário com contas, transferências e extrato.",
     link: "#",
-    ativo: false
+    ativo: false,
+    status: "Em desenvolvimento"
   },
   cursos: {
     titulo: "Plataforma de Cursos",
     texto: "Plataforma para cursos online com login e progresso.",
     link: "#",
-    ativo: false
+    ativo: false,
+    status: "Em desenvolvimento"
   },
  
   lazyLoading: {
     titulo: "Lazy Loading",
     texto: "Projeto demonstrando carregamento de imagens sob demanda.",
     link: "https://jardiel-dev.github.io/5_LAZY_LOADING/",
-    ativo: true
-  }
+    ativo: true,
+    status: "Concluído"
+  },
+
+  todo: {
+  titulo: "Todo List Avançado",
+  texto: "Aplicação completa de gerenciamento de tarefas com CRUD, busca, filtro e persistência com LocalStorage.",
+  link: "https://jardiel-dev.github.io/6_TODO_LIST_AVANCADO/",
+  ativo: true,
+  status: "Concluído"
+}
 };
 
 
@@ -77,7 +89,7 @@ botoes.forEach(botao => {
     descricao.innerHTML = `
       <h3>${projeto.titulo}</h3>
       <p>${projeto.texto}</p>
-      <p><strong>🔧 Status:</strong> Em desenvolvimento</p>
+      <p><strong>🔧 Status:</strong> ${projeto.status}</p>
       ${botaoProjeto}
     `;
   });
