@@ -157,7 +157,7 @@ img {
    MODO ESCURO
 ===================== */
 .modo-escuro {
-  background-color: #1a1a1a;
+  background-image: url(../site-pessoal-html-css/img/noturno.png);
   color: white;
 }
 
