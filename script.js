@@ -25,7 +25,7 @@ const projetos = {
   restaurante: {
   titulo: "Sistema de Restaurante",
   texto: "Sistema web com carrinho de compras, controle de quantidade e total dinâmico.",
-  link: "https://jardiel-dev.github.io/RESTAURANTE/",
+  link: "https://jardiel-dev.github.io/restaurant-landing-page/",
   ativo: true,
   status: "Concluído"
 },
@@ -51,7 +51,7 @@ const projetos = {
   lazyLoading: {
     titulo: "Lazy Loading",
     texto: "Projeto demonstrando carregamento de imagens sob demanda.",
-    link: "https://jardiel-dev.github.io/5_LAZY_LOADING/",
+    link: "https://jardiel-dev.github.io/lazy-loading/",
     ativo: true,
     status: "Concluído"
   },
@@ -59,7 +59,7 @@ const projetos = {
   todo: {
   titulo: "Todo List Avançado",
   texto: "Aplicação completa de gerenciamento de tarefas com CRUD, busca, filtro e persistência com LocalStorage.",
-  link: "https://jardiel-dev.github.io/6_TODO_LIST_AVANCADO/",
+  link: "https://jardiel-dev.github.io/todo-list/",
   ativo: true,
   status: "Concluído"
 }
